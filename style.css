@@ -6,27 +6,88 @@ html {
   font-family: sans-serif;
 }
 
+main {
+  _max-width: 60ch;
+}
+
 body {
-  max-width: 600px;
+}
+
+main > section {
+  display: block;
+  max-width: 50ch;
   margin: 0 auto;
 }
 
-img {
-  max-width: 600px;
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 50ch;
+  margin: 0 auto;
 }
 
-.name {
-  position: relative;
-  width: 40%;
-  padding: 1rem;
+.h1-style {
+  display: inline-block;
+  max-width: 20ch;
   background-color: black;
   color: white;
-  display: inline-block;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: normal;
 }
 
 .heading {
   text-transform: uppercase;
   text-decoration: underline;
   text-decoration-thickness: 3px;
-  text-underline-offset: 3px;
+  text-underline-offset: 5px;
+  margin-top: 4rem;
+}
+
+.quoteblock {
+  display: block;
+  background-color: rgb(239, 239, 239);
+  _display: flex;
+  _flex-direction: column;
+  _align-items: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.quote {
+  font-size: 4rem;
+  margin: 0px;
+  color: rgb(85, 85, 85);
+}
+
+.sub-quote {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.herzen {
+  color: black;
+}
+
+.picture {
+  max-width: 60ch;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.email {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.address-style {
+  margin-top: 1rem;
+  font-style: normal;
 }
