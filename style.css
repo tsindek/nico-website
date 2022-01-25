@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 600px;
+}
+
+.name {
+  position: relative;
+  width: 40%;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  display: inline-block;
+}
+
+.heading {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+}
