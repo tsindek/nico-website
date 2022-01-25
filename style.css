@@ -49,9 +49,6 @@ main > section {
 .quoteblock {
   display: block;
   background-color: rgb(239, 239, 239);
-  _display: flex;
-  _flex-direction: column;
-  _align-items: flex-start;
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding-top: 4rem;
